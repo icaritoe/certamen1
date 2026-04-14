@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: rgb(53, 14, 47);
+    color: rgb(219, 13, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 3rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2.5rem;
+}
+
+body {
+    background: linear-gradient(90deg,
+            rgb(159, 146, 228), rgb(222, 67, 116));
+    font-family: "Roboto", sans-serif;
+    color: rgb(100, 16, 62);
+}
+
+.navbar a {
+    color: rgb(232, 132, 232);
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: rgb(61, 154, 154);
+}
+
+.sobre-mi {
+    margin: 3rem auto;
+    max-width: 1000px;
+}
+
+.nombre {
+    color: rgb(6, 20, 59);
+}
+
+.sobre-mi h3 {
+    font-weight: normal;
+}
+
+.sobre-mi h2 {
+    font-size: 2rem;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo-L {
+    padding: .3rem .4rem;
+    background-color: rgb(179, 127, 206);
+    border-radius: .5rem;
+}
