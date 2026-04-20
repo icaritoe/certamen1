@@ -8,9 +8,32 @@
     text-decoration: none;
 }
 
+body {
+    background: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+.titulo-secciones {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: slategrey;
+}
+
+.titulo-seccion {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    background: rgb(73, 73, 107);
+    padding: 1rem;
+}
+
 header {
-    background: rgb(53, 14, 47);
-    color: rgb(219, 13, 143);
+    background: rgb(19, 45, 88);
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,51 +44,99 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    gap: 2.5rem;
-}
-
-body {
-    background: linear-gradient(90deg,
-            rgb(159, 146, 228), rgb(222, 67, 116));
-    font-family: "Roboto", sans-serif;
-    color: rgb(100, 16, 62);
+    gap: 3rem;
 }
 
 .navbar a {
-    color: rgb(232, 132, 232);
+    color: whitesmoke;
     font-weight: bold;
+    transition: color .2s;
 }
 
 .navbar a:hover {
-    color: rgb(61, 154, 154);
-}
-
-.sobre-mi {
-    margin: 3rem auto;
-    max-width: 1000px;
-}
-
-.nombre {
-    color: rgb(6, 20, 59);
-}
-
-.sobre-mi h3 {
-    font-weight: normal;
-}
-
-.sobre-mi h2 {
-    font-size: 2rem;
+    color: rgb(52, 191, 255);
 }
 
 .Logo {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
 .logo-L {
     padding: .3rem .4rem;
-    background-color: rgb(179, 127, 206);
+    background-color: rgb(233, 117, 8);
     border-radius: .5rem;
+}
+
+.sobre-mi {
+    padding: 4rem 10rem;
+    background: linear-gradient(90deg,
+            rgb(19, 45, 88), rgb(84, 118, 146));
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.foto-usuario img {
+    width: 200px;
+    border: 5px solid white;
+    border-radius: 10rem;
+}
+
+.nombre {
+    color: orange;
+}
+
+.div-sobre-mi h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.div-sobre-mi p {
+    font-style: italic;
+}
+
+.div-sobre-mi {
+    max-width: 900px;
+}
+
+.mas-sobre-mi {
+    color: rgb(41, 50, 68);
+}
+
+.desc-breve {
+    background: white;
+    border-radius: 1rem;
+    max-width: 300px;
+    padding: 2rem 1.2rem;
+    margin-left: 5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+}
+
+.desc-breve p {
+    color: gray;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.desc {
+    color: rgb(29, 39, 59);
+    font-weight: bold;
+}
+
+.frase {
+    padding: 1rem;
+    margin: 1.5rem;
+    max-width: 600px;
+    background: rgba(8, 128, 197, 0.308);
+}
+
+.sobre-mi-desc {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    margin-bottom: 5rem;
 }
