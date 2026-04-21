@@ -1,1 +1,1 @@
-Portafolio de Angela Melgarejo Letelier donde creo mi primera maqueta de página Web con ayuda de apuntes e IA.
+Primer portafolio de Angela Melgarejo Letelier donde creo mi primera maqueta de página Web creando las distintas clases, etiquetas, tablas y tambien adjuntando imagenes correspondientes junto con el apoyo de apuntes e IA(para salir de apuros jiji).
