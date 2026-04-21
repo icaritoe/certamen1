@@ -123,7 +123,7 @@ header {
 }
 
 .desc {
-    color: rgb(29, 39, 59);
+    color: rgb(38, 59, 29);
     font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ header {
     padding: 1rem;
     margin: 1.5rem;
     max-width: 600px;
-    background: rgba(8, 128, 197, 0.308);
+    background: rgba(234, 225, 179, 0.308);
 }
 
 .sobre-mi-desc {
@@ -139,4 +139,103 @@ header {
     margin-right: 5rem;
     display: flex;
     margin-bottom: 5rem;
+}
+
+table {
+    width: 60%;
+    font-size: 1.2rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.425);
+    background: white;
+    margin-bottom: 3rem;
+}
+
+th,
+td {
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+thead {
+    background-color: rgb(44, 72, 114);
+    color: whitesmoke;
+}
+
+tr:nth-child(even) {
+    background: rgb(207, 241, 255);
+}
+
+.caja {
+    background: white;
+    margin: 1rem;
+    padding: 1rem 5rem 1rem 3rem;
+    max-width: 400px;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
+}
+
+.caja-habilidades {
+    display: flex;
+    justify-content: center;
+}
+
+.caja h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.caja li {
+    margin-bottom: 1rem;
+}
+
+.competencias li {
+    list-style: disc;
+}
+
+.aprendizaje li {
+    list-style: decimal;
+}
+
+.barra {
+    width: 120px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nivel {
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.nivel.básico {
+    width: 40%;
+    background-color: rgb(255, 21, 0);
+}
+
+.nivel.intermedio {
+    width: 0%;
+    background-color: rgb(219, 126, 126);
+}
+
+.nivel.intermedio-alto {
+    width: 70%;
+    background-color: rgb(22, 90, 51);
+}
+
+.nivel.avanzado {
+    width: 100%;
+    background-color: rgb(19, 21, 91);
 }
