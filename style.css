@@ -239,3 +239,39 @@ tr:nth-child(even) {
     width: 100%;
     background-color: rgb(19, 21, 91);
 }
+
+.img-proyecto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(90deg,
+            rgb(48, 124, 196), rgb(100, 10, 151));
+}
+
+.img-proyecto img {
+    width: 80px;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.proyecto {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+}
+
+.info-proyecto {
+    padding: 1.5rem;
+}
+
+.info-proyecto h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
