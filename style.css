@@ -24,10 +24,10 @@ body {
 .titulo-seccion {
     margin-top: 5rem;
     margin-bottom: 1rem;
-    color: white;
+    color: rgba(14, 8, 84, 0.733);
     text-align: center;
     font-size: 2rem;
-    background: rgb(19, 45, 88);
+    background: rgb(241, 243, 245);
     padding: 1rem;
 }
 
